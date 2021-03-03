@@ -5,8 +5,8 @@
  [Link](https://medium.com/swlh/api-authentication-using-laravel-sanctum-laravel-8-19ed8b4f124c)
 ## Check-list
     1.0.0 
-        [ ] Configurar laravel sanctum
-        [ ] Configurar provider
+        [x] Configurar laravel sanctum
+        [x] Configurar provider
         [ ] Fazer migrate
     
     1.0.1
