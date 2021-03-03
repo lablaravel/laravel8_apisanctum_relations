@@ -7,7 +7,8 @@
     1.0.0 
         [x] Configurar laravel sanctum
         [x] Configurar provider
-        [ ] Fazer migrate
+        [x] Fazer migrate
+        [x] Configuração do kernel
     
     1.0.1
         [ ] Configurar autenticação de rotas
