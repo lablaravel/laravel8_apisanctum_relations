@@ -2,7 +2,10 @@
 ## Sobre o projeto
  Criar projeto de API com laravel 8 usando Laravel Sanctum para autentição.
 
+
+## Links que me ajudou
  [Link](https://medium.com/swlh/api-authentication-using-laravel-sanctum-laravel-8-19ed8b4f124c)
+ [Link](https://imasters.com.br/php/3-tipos-de-relacionamento-entre-tabelas-no-laravel)
 ## Check-list
     1.0.0 
         [x] Configurar laravel sanctum
