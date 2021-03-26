@@ -7,6 +7,10 @@
  [Link](https://medium.com/swlh/api-authentication-using-laravel-sanctum-laravel-8-19ed8b4f124c)
  [Link](https://imasters.com.br/php/3-tipos-de-relacionamento-entre-tabelas-no-laravel)
 ## Check-list
+     1.0.1 
+        [x] Relacionamento N para N user, roles, users_roles
+        
+
     1.0.0 
         [x] Configurar laravel sanctum
         [x] Configurar provider
