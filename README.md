@@ -1,6 +1,6 @@
 
 ## Sobre o projeto
- Criar projeto de API com laravel 8 usando Laravel Sanctum para autentição. Vou criar modelo de classificados de produtos no qual anunciante divulga o seu produto e o usuário veja se interesse e entre em contato. vai ter login para vendedor e um login para usuário.
+ Criar projeto de API com laravel 8 usando Laravel Sanctum para autentição.
 
  [Link](https://medium.com/swlh/api-authentication-using-laravel-sanctum-laravel-8-19ed8b4f124c)
 ## Check-list
