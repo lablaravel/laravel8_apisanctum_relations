@@ -15,6 +15,6 @@ class RoleUser extends Model
     ];
 
     public function down(){
-        Schema::dropIfExists('role_users')
+        Schema::dropIfExists('role_users');
     }
 }
