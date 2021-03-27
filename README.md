@@ -11,8 +11,10 @@
 ## Check-list
      
      1.0.2
-        [ ] Criar Seed para gerar usuários aleatórios
-     
+        [x] Criar Factory para gerar usuários aleatórios
+        [x] Criar Factory para gerar role_users aleatórios
+        [ ] Executar o seed dos factory user e role_users
+      
      1.0.1 
         [x] Relacionamento N para N user, roles, users_roles
         
