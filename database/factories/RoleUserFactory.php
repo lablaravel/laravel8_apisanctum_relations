@@ -22,7 +22,8 @@ class RoleUserFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'user_id' => $this->faker->numberBetween(1,5),
+            'role_id' => $this->faker->numberBetween(1,3),
         ];
     }
 }
