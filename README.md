@@ -8,6 +8,10 @@
  [Link](https://imasters.com.br/php/3-tipos-de-relacionamento-entre-tabelas-no-laravel)
  [Sobre Git Tag](https://medium.com/rafaeltardivo/git-criando-tags-7c34ee6786be)
 ## Check-list
+     
+     1.0.2
+        [ ] Criar Seed para gerar usuários aleatórios
+     
      1.0.1 
         [x] Relacionamento N para N user, roles, users_roles
         
