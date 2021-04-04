@@ -8,6 +8,7 @@ class CreateTableFirms extends Migration
 {
     /**
      * Run the migrations.
+     * Aqui migration da tabela empresas
      *
      * @return void
      */
@@ -15,6 +16,10 @@ class CreateTableFirms extends Migration
     {
         Schema::create('table_firms', function (Blueprint $table) {
             $table->id();
+            $table->string('companyname');
+            $table->string('fantasyname');
+            $table->string('avatarlogo');
+            $table->string('about');
             $table->timestamps();
         });
     }
