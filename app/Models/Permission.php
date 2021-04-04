@@ -17,5 +17,6 @@ class Permission extends Model
     public function down()
     {
         Schema::dropIfExists('permissions');
+        
     }
 }
