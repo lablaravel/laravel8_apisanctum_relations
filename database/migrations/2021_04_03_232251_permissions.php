@@ -13,7 +13,13 @@ class Permissions extends Migration
      */
     public function up()
     {
-        //
+       
+        Schema::create('permissions', function (Blueprint $table){
+            $table->id();
+            $table->string('name');
+            $table->string('nameslug');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -22,7 +28,7 @@ class Permissions extends Migration
      * @return void
      */
     public function down()
-    {
-        //
+    {        
+        Schema::dropIfExists('permissions');
     }
 }
