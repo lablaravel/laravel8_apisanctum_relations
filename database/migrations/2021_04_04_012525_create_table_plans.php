@@ -15,6 +15,9 @@ class CreateTablePlans extends Migration
     {
         Schema::create('table_plans', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('url');
+            $table->double('price');
             $table->timestamps();
         });
     }
