@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('photo');
             $table->string('cpf',11)->nullable();
-            $table->string('cnpj',14)->nullable();            
+            $table->string('cnpj',14)->nullable();           
             $table->rememberToken();
             $table->timestamps();
         });
