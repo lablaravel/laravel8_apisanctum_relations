@@ -15,6 +15,10 @@ class CreateTableFirmsUsers extends Migration
     {
         Schema::create('table_firms_users', function (Blueprint $table) {
             $table->id();
+            $table->BigInteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->BigInteger('firm_id')->unsigned();
+            $table->foreign('firm_id')->references('id')->on('firms')->onDelete('cascade');
             $table->timestamps();
         });
     }
